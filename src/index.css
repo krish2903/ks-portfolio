@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Proxima+Nova:wght@400;800&isplay=swap');
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+::selection {
+  background-color: #535A4A;
+  color: #ECE9E1;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  pointer-events: none;
+}
+
+h1 {
+  font-family: 'Averia Serif Libre', serif;
+  line-height: 1.5 !important;
+}
+
+svg path {
+  fill: #ECE9E1;
+  transition: 0.3s all ease-in-out;
+}
+
+svg:hover path {
+  fill: white;
+}
+
+.bg-primary {
+  background: #535A4A;
+}
+
+.bg-secondary {
+  background: #ECE9E1;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+nav li p {
+  @apply px-4 py-5 text-[1rem];
+  font-family: 'Proxima Nova', sans-serif;
+  cursor: pointer;
+}
+
+nav li p:hover {
+  color: #ece9e1b6;
+}
