@@ -18,14 +18,14 @@ const Blog = () => {
     ];
 
     return (
-        <section className="bg-lux-cream text-lux-brown px-64 py-24" id="blog">
+        <section className="bg-white text-sp-black px-64 py-24" id="blog">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="text-[5rem] text-lux-brown font-proxima font-bold">
+                    <h2 className="text-[4.5rem] text-sp-black font-heading font-bold tracking-tight">
                         blogs.
                     </h2>
 
-                    <p className="font-proxima px-1 pb-5 font-bold">coming soon.</p>
+                    <p className="px-1 pb-5 font-proxima text-sp-black text-[0.9rem] tracking-wide leading-7">coming soon.</p>
                 </div>
 
                 <div></div>

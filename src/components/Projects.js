@@ -59,13 +59,13 @@ const Projects = () => {
     ];
 
     return (
-        <section className="bg-primary text-white px-64 py-24 mt-0.5" id="projects">
+        <section className="bg-sp-white text-sp-black px-64 py-24 mt-0.5" id="projects">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="text-[5rem] text-lux-cream font-proxima font-bold">
+                    <h2 className="text-[4.5rem] text-sp-black font-heading font-bold tracking-tight">
                         projects.
                     </h2>
-                    <p className="pb-5">
+                    <p className="pb-5 font-proxima text-sp-black text-[0.9rem] tracking-wide leading-7">
                         Here are a list of projects that I have been working on.
                     </p>
                 </div>
@@ -73,7 +73,7 @@ const Projects = () => {
             <div className="projects font-proxima text-[0.9rem] container mx-auto grid md:grid-cols-3 gap-10">
                 {projects.map((project, i) => {
                     return (
-                        <div className="bg-lux-cream hover:bg-white rounded-xl p-3 shadow-xl hover:cursor-pointer transform hover:scale-105 transition-transform duration-300" key={i}>
+                        <div className="bg-white border-2 border-sp-lightgray hover:bg-white rounded-xl p-3 shadow-xl hover:cursor-pointer transform hover:scale-105 transition-transform duration-300" key={i}>
                             <img src={project.img} alt={project.title} className="text-lux-green h-60 w-full rounded-lg object-cover" />
                             <h1 className="text-[1rem] p-5 pb-0 font-proxima font-bold text-lux-green">
                                 {project.title}

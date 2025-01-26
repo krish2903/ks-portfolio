@@ -11,10 +11,14 @@ module.exports = {
         'lux-gold': '#8F6F53',
         'lux-brown': '#98867B',
         'sp-white': '#FAFAFA',
+        'sp-black': '#333333',
+        'sp-gray': '#707070',
+        'sp-lightgray': '#f0f0f0',
         'dark': '#2e2e2e',
       },
       fontFamily: {
-        proxima: ['Proxima Nova', 'sans-serif'],
+        proxima: ['Poppins', 'sans-serif'],
+        heading: ['Work Sans', 'serif'],
       }
     },
   },

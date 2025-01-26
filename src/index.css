@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Proxima+Nova:wght@400;800&isplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;500;600;700&isplay=swap');
 
 @keyframes fadeIn {
   from {
@@ -42,13 +42,22 @@ h1 {
   line-height: 1.5 !important;
 }
 
-svg path {
+#contact svg path {
   fill: #ECE9E1;
   transition: 0.3s all ease-in-out;
 }
 
-svg:hover path {
+#contact svg:hover path {
   fill: white;
+}
+
+#footer svg path {
+  fill: #535A4A;
+  transition: 0.3s all ease-in-out;
+}
+
+#footer svg:hover path {
+  fill: #535a4a6e;
 }
 
 .bg-primary {
@@ -64,11 +73,11 @@ svg:hover path {
 }
 
 nav li p {
-  @apply px-4 py-5 text-[1rem];
-  font-family: 'Proxima Nova', sans-serif;
+  @apply px-4 py-5 text-[.9rem];
+  font-family: 'Open Sans', sans-serif;
   cursor: pointer;
 }
 
 nav li p:hover {
-  color: #ece9e1b6;
+  color: #000;
 }
