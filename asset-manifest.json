@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.d2120d67.css",
-    "main.js": "/ks-portfolio/static/js/main.769f35b5.js",
+    "main.css": "/ks-portfolio/static/css/main.6667a443.css",
+    "main.js": "/ks-portfolio/static/js/main.62b9649a.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
     "static/media/chess.png": "/ks-portfolio/static/media/chess.d788bd062b979a48c1c2.png",
     "static/media/film-reviews-project.png": "/ks-portfolio/static/media/film-reviews-project.cdce7a7959feef707a26.png",
@@ -14,14 +14,15 @@
     "static/media/orbis-project.jpeg": "/ks-portfolio/static/media/orbis-project.68edf2893578ce0a6d23.jpeg",
     "static/media/fdm-project.jpeg": "/ks-portfolio/static/media/fdm-project.61571984044579bf7b35.jpeg",
     "static/media/logoLight.png": "/ks-portfolio/static/media/logoLight.f24928eae57b2b981ff9.png",
+    "static/media/logoDark.png": "/ks-portfolio/static/media/logoDark.6f63486e9fe23d96c45a.png",
     "static/media/accounting-project.png": "/ks-portfolio/static/media/accounting-project.49b91d33f392ab24cb8c.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.d2120d67.css.map": "/ks-portfolio/static/css/main.d2120d67.css.map",
-    "main.769f35b5.js.map": "/ks-portfolio/static/js/main.769f35b5.js.map",
+    "main.6667a443.css.map": "/ks-portfolio/static/css/main.6667a443.css.map",
+    "main.62b9649a.js.map": "/ks-portfolio/static/js/main.62b9649a.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2120d67.css",
-    "static/js/main.769f35b5.js"
+    "static/css/main.6667a443.css",
+    "static/js/main.62b9649a.js"
   ]
 }
