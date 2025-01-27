@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import logoDark from "../assets/logoDark.png";
+import Resume from "../assets/krish-CV.pdf";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -91,21 +92,21 @@ const Header = () => {
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
-        <ul className="flex">
+        <ul className="flex items-center">
           <li>
-            <p onClick={handleScrollToAbout}>about</p>
+            <a onClick={handleScrollToAbout}>about</a>
           </li>
           <li>
-            <p onClick={handleScrollToProjects}>projects</p>
+            <a onClick={handleScrollToProjects}>projects</a>
           </li>
           <li>
-            <p onClick={handleScrollToBlog}>blog</p>
+            <a onClick={handleScrollToBlog}>blog</a>
           </li>
           <li>
-            <p onClick={handleScrollToContact}>contact</p>
+            <a onClick={handleScrollToContact}>contact</a>
           </li>
           <li>
-            <p>resume</p>
+            <a href={Resume} download>resume</a>
           </li>
         </ul>
       </nav>

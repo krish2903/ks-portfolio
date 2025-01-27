@@ -42,21 +42,12 @@ h1 {
   line-height: 1.5 !important;
 }
 
-#contact svg path {
-  fill: #ECE9E1;
-  transition: 0.3s all ease-in-out;
-}
-
-#contact svg:hover path {
-  fill: white;
-}
-
-#footer svg path {
+svg path {
   fill: #535A4A;
   transition: 0.3s all ease-in-out;
 }
 
-#footer svg:hover path {
+svg:hover path {
   fill: #535a4a6e;
 }
 
@@ -72,12 +63,13 @@ h1 {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
 
-nav li p {
+nav li p, nav li a {
   @apply px-4 py-5 text-[.9rem];
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
+  text-decoration: none;
 }
 
-nav li p:hover {
+nav li p:hover, nav li a:hover {
   color: #000;
 }

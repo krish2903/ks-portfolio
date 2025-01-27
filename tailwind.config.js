@@ -10,7 +10,7 @@ module.exports = {
         'lux-cream': '#ECE9E1',
         'lux-gold': '#8F6F53',
         'lux-brown': '#98867B',
-        'sp-white': '#FAFAFA',
+        'sp-white': '#F9F9F9',
         'sp-black': '#333333',
         'sp-gray': '#707070',
         'sp-lightgray': '#f0f0f0',

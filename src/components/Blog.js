@@ -25,7 +25,7 @@ const Blog = () => {
                         blogs.
                     </h2>
 
-                    <p className="px-1 pb-5 font-proxima text-sp-black text-[0.9rem] tracking-wide leading-7">coming soon.</p>
+                    <p className="px-1 pb-5 font-proxima text-sp-black font-semibold text-[0.9rem] tracking-wide leading-7">coming soon.</p>
                 </div>
 
                 <div></div>
