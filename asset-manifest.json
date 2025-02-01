@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.b19ca0c1.css",
-    "main.js": "/ks-portfolio/static/js/main.c3a5557a.js",
+    "main.css": "/ks-portfolio/static/css/main.131f9987.css",
+    "main.js": "/ks-portfolio/static/js/main.43e0a216.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
     "static/media/chess.png": "/ks-portfolio/static/media/chess.d788bd062b979a48c1c2.png",
     "static/media/film-reviews-project.png": "/ks-portfolio/static/media/film-reviews-project.cdce7a7959feef707a26.png",
@@ -19,12 +19,12 @@
     "static/media/accounting-project.png": "/ks-portfolio/static/media/accounting-project.49b91d33f392ab24cb8c.png",
     "static/media/triangle.png": "/ks-portfolio/static/media/triangle.1914de850cb2ce2a7074.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.b19ca0c1.css.map": "/ks-portfolio/static/css/main.b19ca0c1.css.map",
-    "main.c3a5557a.js.map": "/ks-portfolio/static/js/main.c3a5557a.js.map",
+    "main.131f9987.css.map": "/ks-portfolio/static/css/main.131f9987.css.map",
+    "main.43e0a216.js.map": "/ks-portfolio/static/js/main.43e0a216.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b19ca0c1.css",
-    "static/js/main.c3a5557a.js"
+    "static/css/main.131f9987.css",
+    "static/js/main.43e0a216.js"
   ]
 }
