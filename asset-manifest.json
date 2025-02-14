@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.2647cdb7.css",
-    "main.js": "/ks-portfolio/static/js/main.89e9b70a.js",
+    "main.css": "/ks-portfolio/static/css/main.21609dbb.css",
+    "main.js": "/ks-portfolio/static/js/main.219e84cb.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
     "static/media/film-reviews-project.png": "/ks-portfolio/static/media/film-reviews-project.cdce7a7959feef707a26.png",
     "static/media/chefAI-project.png": "/ks-portfolio/static/media/chefAI-project.fcf2b9773a6123120ab1.png",
@@ -17,12 +17,12 @@
     "static/media/accounting-project.png": "/ks-portfolio/static/media/accounting-project.49b91d33f392ab24cb8c.png",
     "static/media/triangle.png": "/ks-portfolio/static/media/triangle.1914de850cb2ce2a7074.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.2647cdb7.css.map": "/ks-portfolio/static/css/main.2647cdb7.css.map",
-    "main.89e9b70a.js.map": "/ks-portfolio/static/js/main.89e9b70a.js.map",
+    "main.21609dbb.css.map": "/ks-portfolio/static/css/main.21609dbb.css.map",
+    "main.219e84cb.js.map": "/ks-portfolio/static/js/main.219e84cb.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2647cdb7.css",
-    "static/js/main.89e9b70a.js"
+    "static/css/main.21609dbb.css",
+    "static/js/main.219e84cb.js"
   ]
 }
