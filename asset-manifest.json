@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.c383f4f7.css",
-    "main.js": "/ks-portfolio/static/js/main.5314a18a.js",
+    "main.css": "/ks-portfolio/static/css/main.3e29c5aa.css",
+    "main.js": "/ks-portfolio/static/js/main.41629cd3.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
-    "static/media/film-reviews-project.png": "/ks-portfolio/static/media/film-reviews-project.cdce7a7959feef707a26.png",
-    "static/media/chefAI-project.png": "/ks-portfolio/static/media/chefAI-project.fcf2b9773a6123120ab1.png",
     "static/media/bg.png": "/ks-portfolio/static/media/bg.e0187d9b99615db0ecd4.png",
-    "static/media/stockscope-project.png": "/ks-portfolio/static/media/stockscope-project.b9e7978e9ebcd8c7166b.png",
-    "static/media/orbis-project.jpeg": "/ks-portfolio/static/media/orbis-project.68edf2893578ce0a6d23.jpeg",
+    "static/media/orbis-project.jpeg": "/ks-portfolio/static/media/orbis-project.f9b4faf5fbcc5cc996d2.jpeg",
     "static/media/bubble.png": "/ks-portfolio/static/media/bubble.392d457ed6faee1c7a0d.png",
-    "static/media/fdm-project.jpeg": "/ks-portfolio/static/media/fdm-project.61571984044579bf7b35.jpeg",
+    "static/media/chefAI-project.jpeg": "/ks-portfolio/static/media/chefAI-project.5b223357296e8b892ec6.jpeg",
+    "static/media/stockscope-project.jpeg": "/ks-portfolio/static/media/stockscope-project.6b31153250a4f14be2e8.jpeg",
+    "static/media/film-reviews-project.jpeg": "/ks-portfolio/static/media/film-reviews-project.8dad19d438ef2e5ce6a1.jpeg",
+    "static/media/fdm-project.jpeg": "/ks-portfolio/static/media/fdm-project.6fc73c17cc6dd4453fc6.jpeg",
+    "static/media/accounting-project.jpeg": "/ks-portfolio/static/media/accounting-project.7ce9feebdee58772ebe8.jpeg",
     "static/media/logoLight.png": "/ks-portfolio/static/media/logoLight.f24928eae57b2b981ff9.png",
     "static/media/mesh-bg.png": "/ks-portfolio/static/media/mesh-bg.b9026855d446429f29a7.png",
-    "static/media/accounting-project.png": "/ks-portfolio/static/media/accounting-project.49b91d33f392ab24cb8c.png",
     "static/media/triangle.png": "/ks-portfolio/static/media/triangle.1914de850cb2ce2a7074.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.c383f4f7.css.map": "/ks-portfolio/static/css/main.c383f4f7.css.map",
-    "main.5314a18a.js.map": "/ks-portfolio/static/js/main.5314a18a.js.map",
+    "main.3e29c5aa.css.map": "/ks-portfolio/static/css/main.3e29c5aa.css.map",
+    "main.41629cd3.js.map": "/ks-portfolio/static/js/main.41629cd3.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c383f4f7.css",
-    "static/js/main.5314a18a.js"
+    "static/css/main.3e29c5aa.css",
+    "static/js/main.41629cd3.js"
   ]
 }
