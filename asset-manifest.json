@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.613faaee.css",
-    "main.js": "/ks-portfolio/static/js/main.c9a18f02.js",
+    "main.css": "/ks-portfolio/static/css/main.0cc0e9b1.css",
+    "main.js": "/ks-portfolio/static/js/main.5deda2a3.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
     "static/media/bg.png": "/ks-portfolio/static/media/bg.e0187d9b99615db0ecd4.png",
     "static/media/orbis-project.jpeg": "/ks-portfolio/static/media/orbis-project.f9b4faf5fbcc5cc996d2.jpeg",
@@ -15,12 +15,12 @@
     "static/media/mesh-bg.png": "/ks-portfolio/static/media/mesh-bg.b9026855d446429f29a7.png",
     "static/media/triangle.png": "/ks-portfolio/static/media/triangle.1914de850cb2ce2a7074.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.613faaee.css.map": "/ks-portfolio/static/css/main.613faaee.css.map",
-    "main.c9a18f02.js.map": "/ks-portfolio/static/js/main.c9a18f02.js.map",
+    "main.0cc0e9b1.css.map": "/ks-portfolio/static/css/main.0cc0e9b1.css.map",
+    "main.5deda2a3.js.map": "/ks-portfolio/static/js/main.5deda2a3.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.613faaee.css",
-    "static/js/main.c9a18f02.js"
+    "static/css/main.0cc0e9b1.css",
+    "static/js/main.5deda2a3.js"
   ]
 }
