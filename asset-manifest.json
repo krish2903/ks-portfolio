@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.9c2ad8a6.css",
-    "main.js": "/ks-portfolio/static/js/main.5fd3eb39.js",
+    "main.css": "/ks-portfolio/static/css/main.c383f4f7.css",
+    "main.js": "/ks-portfolio/static/js/main.5314a18a.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
     "static/media/film-reviews-project.png": "/ks-portfolio/static/media/film-reviews-project.cdce7a7959feef707a26.png",
     "static/media/chefAI-project.png": "/ks-portfolio/static/media/chefAI-project.fcf2b9773a6123120ab1.png",
-    "static/media/aboutme2.jpg": "/ks-portfolio/static/media/aboutme2.c18f74b13ffc1899222c.jpg",
+    "static/media/bg.png": "/ks-portfolio/static/media/bg.e0187d9b99615db0ecd4.png",
     "static/media/stockscope-project.png": "/ks-portfolio/static/media/stockscope-project.b9e7978e9ebcd8c7166b.png",
-    "static/media/aboutmehover.jpeg": "/ks-portfolio/static/media/aboutmehover.83f11cc38f40d9cea308.jpeg",
-    "static/media/aboutme.jpeg": "/ks-portfolio/static/media/aboutme.4b2893f894e1026e0f79.jpeg",
     "static/media/orbis-project.jpeg": "/ks-portfolio/static/media/orbis-project.68edf2893578ce0a6d23.jpeg",
     "static/media/bubble.png": "/ks-portfolio/static/media/bubble.392d457ed6faee1c7a0d.png",
     "static/media/fdm-project.jpeg": "/ks-portfolio/static/media/fdm-project.61571984044579bf7b35.jpeg",
@@ -17,12 +15,12 @@
     "static/media/accounting-project.png": "/ks-portfolio/static/media/accounting-project.49b91d33f392ab24cb8c.png",
     "static/media/triangle.png": "/ks-portfolio/static/media/triangle.1914de850cb2ce2a7074.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.9c2ad8a6.css.map": "/ks-portfolio/static/css/main.9c2ad8a6.css.map",
-    "main.5fd3eb39.js.map": "/ks-portfolio/static/js/main.5fd3eb39.js.map",
+    "main.c383f4f7.css.map": "/ks-portfolio/static/css/main.c383f4f7.css.map",
+    "main.5314a18a.js.map": "/ks-portfolio/static/js/main.5314a18a.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2ad8a6.css",
-    "static/js/main.5fd3eb39.js"
+    "static/css/main.c383f4f7.css",
+    "static/js/main.5314a18a.js"
   ]
 }
