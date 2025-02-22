@@ -1,10 +1,10 @@
 import React from "react";
 import OrbisImg from "../assets/orbis-project.jpeg";
-import FilmRevImg from "../assets/film-reviews-project.png";
-import ChefImg from "../assets/chefAI-project.png";
-import StockScopeImg from "../assets/stockscope-project.png";
+import FilmRevImg from "../assets/film-reviews-project.jpeg";
+import ChefImg from "../assets/chefAI-project.jpeg";
+import StockScopeImg from "../assets/stockscope-project.jpeg";
 import FdmImg from "../assets/fdm-project.jpeg";
-import AccountingImg from "../assets/accounting-project.png";
+import AccountingImg from "../assets/accounting-project.jpeg";
 
 const Projects = () => {
     const projects = [
@@ -12,9 +12,25 @@ const Projects = () => {
             img: OrbisImg,
             title: "Orbis",
             desc: "React Native | CSS | Django | Firebase",
-            live: "https://devlogg.onrender.com/",
+            live: "",
             code: "https://github.com/Coderamrin/devlog",
             status: "incomplete",
+        },
+        {
+            img: ChefImg,
+            title: "IntelliChef",
+            desc: "React Native | CSS (Front End Only)",
+            live: "https://build-10-css-projects.netlify.app/",
+            code: "https://github.com/Coderamrin/build-10-css-projects",
+            status: "incomplete",
+        },
+        {
+            img: StockScopeImg,
+            title: "Stock Scope",
+            desc: "HTML | CSS | JS | PHP",
+            live: "https://stock-scope.infy.uk/stockScope/dashboard/",
+            code: "https://github.com/Coderamrin/build-10-css-projects",
+            status: "completed",
         },
         {
             img: FdmImg,
@@ -25,28 +41,12 @@ const Projects = () => {
             status: "completed",
         },
         {
-            img: StockScopeImg,
-            title: "Stock Scope",
-            desc: "HTML | CSS | JS | PHP",
-            live: "https://build-10-css-projects.netlify.app/",
-            code: "https://github.com/Coderamrin/build-10-css-projects",
-            status: "completed",
-        },
-        {
             img: FilmRevImg,
             title: "Film Reviews App",
             desc: "React JS | CSS | Django | MySQL",
             live: "https://uilogs.xyz/",
             code: "https://github.com/Coderamrin/html-templates",
             status: "completed",
-        },
-        {
-            img: ChefImg,
-            title: "IntelliChef",
-            desc: "React Native | CSS (Front End Only)",
-            live: "https://build-10-css-projects.netlify.app/",
-            code: "https://github.com/Coderamrin/build-10-css-projects",
-            status: "incomplete",
         },
         {
             img: AccountingImg,
@@ -59,29 +59,24 @@ const Projects = () => {
     ];
 
     return (
-        <section className="bg-sp-white text-sp-black px-64 py-24 mt-0.5" id="projects">
-            <div className="container items-center">
+        <section className="flex flex-col justify-center items-center py-24" id="projects">
+            <div className="text-center">
                 <div className="about-info mb-5">
-                    <h2 className="text-[4.5rem] text-sp-black font-heading font-bold tracking-tight">
+                    <h2 className="text-[4rem] md:text-[6rem] text-transparent bg-gradient-3 bg-clip-text font-heading font-bold tracking-tight">
                         projects.
                     </h2>
-                    <p className="pb-5 font-proxima text-sp-black text-[0.9rem] tracking-wide leading-7">
-                        Here are a list of projects that I have been working on. <span className="font-semibold">(more updates yet to come)</span>
+                    <p className="px-12 py-5 font-lato text-sp-white text-[0.9rem] md:text-[1.35rem]">
+                        Here are a list of projects that I have been working on. <span className="font-bold">(more updates yet to come)</span>
                     </p>
                 </div>
             </div>
-            <div className="projects font-proxima text-[0.9rem] container mx-auto grid md:grid-cols-3 gap-10">
+            <div className="projects px-8 md:px-28 font-lato text-[1.5rem] container mx-auto grid md:grid-cols-2 gap-10">
                 {projects.map((project, i) => {
                     return (
-                        <div className="bg-white border-2 border-sp-lightgray hover:bg-white rounded-xl p-3 shadow-xl hover:cursor-pointer transform hover:scale-105 transition-transform duration-300" key={i}>
-                            <img src={project.img} alt={project.title} className="text-lux-green h-60 w-full rounded-lg object-cover" />
-                            <h1 className="text-[0.9rem] p-5 pb-0 font-proxima font-semibold text-sp-black leading-7">
-                                {project.title}
-                            </h1>
-                            <span className="p-5 pb-0 font-proxima font-semibold text-[0.7rem] text-lux-gold leading-7">({project.status})</span>
-                            <p className="text-[0.8rem] p-5 pt-2 text-lux-green leading-7">
-                                {project.desc}
-                            </p>
+                        <div id="card" className="bg-card-gradient hover:bg-card-hover-gradient p-1.5 rounded-[30px] shadow-xl transform hover:scale-105 transition-transform duration-300" key={i}>
+                            {/* <a href={project.live} target="_blank"> */}
+                                <img src={project.img} alt={project.title} className="h-full w-full rounded-[25px] object-cover" />
+                            {/* </a> */}
                         </div>
                     );
                 })}

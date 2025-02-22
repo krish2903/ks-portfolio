@@ -2,36 +2,31 @@ import React from "react";
 // import Random from "../assets/hero.png";
 
 const Blog = () => {
-    const post = [
-        // {
-        //     img: Random,
-        //     title: "How to build a counter app with JavaScript",
-        //     category: "JavaScript Ultimate Guide 02: The DOM",
-        //     url: "https://dev.to/coderamrin/how-to-build-a-counter-app-with-javascript-439p",
-        // },
-        // {
-        //     img: Random,
-        //     title: "JavaScript Ultimate Guide 02: The DOM",
-        //     category: "JavaScript Ultimate Guide 02: The DOM",
-        //     url: "https://dev.to/coderamrin/javascript-ultimate-guide-02-the-dom-3ho9",
-        // },
-    ];
+    // const post = [
+    //     // {
+    //     //     img: Random,
+    //     //     title: "How to build a counter app with JavaScript",
+    //     //     category: "JavaScript Ultimate Guide 02: The DOM",
+    //     //     url: "https://dev.to/coderamrin/how-to-build-a-counter-app-with-javascript-439p",
+    //     // },
+    //     // {
+    //     //     img: Random,
+    //     //     title: "JavaScript Ultimate Guide 02: The DOM",
+    //     //     category: "JavaScript Ultimate Guide 02: The DOM",
+    //     //     url: "https://dev.to/coderamrin/javascript-ultimate-guide-02-the-dom-3ho9",
+    //     // },
+    // ];
 
     return (
-        <section className="bg-white text-sp-black px-64 py-24" id="blog">
-            <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
-                <div className="about-info mb-5">
-                    <h2 className="text-[4.5rem] text-sp-black font-heading font-bold tracking-tight">
-                        blogs.
-                    </h2>
-
-                    <p className="px-1 pb-5 font-proxima text-sp-black font-semibold text-[0.9rem] tracking-wide leading-7">coming soon.</p>
-                </div>
-
-                <div></div>
+        <section className="flex items-center justify-center h-[75vh]" id="blog">
+            <div className="flex flex-col justify-center items-center">
+                <h2 className="text-center text-[4rem] md:text-[6rem] text-transparent bg-gradient-3 bg-clip-text font-heading font-bold tracking-tight">
+                    blogs.
+                </h2>
+                <p className="font-lato text-sp-white font-semibold text-[0.9rem] md:text-[1.35rem]">coming soon.</p>
             </div>
 
-            <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
+            {/* <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
                 {post.map((item) => {
                     return (
                         <a
@@ -45,7 +40,7 @@ const Blog = () => {
                         </a>
                     );
                 })}
-            </div>
+            </div> */}
         </section >
     );
 };

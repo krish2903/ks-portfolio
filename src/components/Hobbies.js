@@ -1,37 +1,28 @@
 import React from "react";
 import PhotographyImg from "../assets/photography.jpeg";
-import ChessImg from "../assets/chess.png";
 import TravelImg from "../assets/travelling.jpeg";
 
 const HobbiesSection = () => {
     return (
-        <section className="h-[100vh] flex px-64 py-12 pb-20 mt-3 justify-center items-center gap-32 shadow-sm">
-            <div className="w-full about-info">
-                <h2 className="flex items-center pb-8 gap-6 text-[1.15rem] text-sp-gray font-proxima font-bold">
-                    <hr className="flex-grow opacity-50 border-t-2 border-sp-gray"></hr>
-                    HOBBIES
-                    <hr className="flex-grow opacity-50 border-t-2 border-sp-gray"></hr>
-                </h2>
-                <div className="w-full">
-                    <div className="font-proxima text-[0.9rem] container mx-auto grid md:grid-cols-3 gap-10">
-                        <div className="bg-sp-white border-2 border-sp-lightgray rounded-xl p-3 shadow-xl transform hover:scale-105 transition-transform duration-300">
-                            <img src={PhotographyImg} alt='photography' className="text-lux-green h-80 w-full rounded-lg object-cover" />
-                            <h1 className="text-[1rem] p-5 pb-0 font-proxima font-bold text-lux-green">
-                                Photography
-                            </h1>
-                        </div>
-                        <div className="bg-sp-white border-2 border-sp-lightgray rounded-xl p-3 shadow-xl transform hover:scale-105 transition-transform duration-300">
-                            <img src={TravelImg} alt='travelling' className="text-lux-green h-80 w-full rounded-lg object-cover" />
-                            <h1 className="text-[1rem] p-5 pb-0 font-proxima font-bold text-lux-green">
-                                Travelling
-                            </h1>
-                        </div>
-                        <div className="bg-sp-white border-2 border-sp-lightgray rounded-xl p-3 shadow-xl transform hover:scale-105 transition-transform duration-300">
-                            <img src={ChessImg} alt='chess' className="text-lux-green h-80 w-full rounded-lg object-cover" />
-                            <h1 className="text-[1rem] p-5 pb-0 font-proxima font-bold text-lux-green">
-                                Chess
-                            </h1>
-                        </div>
+        <section id="hobbies-sec" className="w-full flex flex-col px-8 md:px-28 py-24 justify-center items-center gap-10">
+            <h2 className="text-center text-[4rem] md:text-[6rem] text-transparent bg-gradient-3 bg-clip-text font-heading font-bold tracking-tight">
+                hobbies.
+            </h2>
+            <div className="font-lato text-[1.5rem] container mx-auto grid md:grid-cols-2 gap-10">
+                <div id="card" className="bg-card-gradient hover:bg-card-hover-gradient p-1.5 rounded-[30px] shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <img src={PhotographyImg} alt='photography' className="relative h-[350px] md:h-[500px] w-full rounded-[25px] object-cover" />
+                    <div className="absolute opacity-0 flex top-0 left-0 items-center justify-center w-full h-full hover:opacity-100 bg-[rgba(0,0,0,0.5)] transition-all duration-500">
+                        <h2 className="text-[1.75rem] md:text-[2.5rem] text-transparent bg-gradient-4 bg-clip-text font-serif font-bold italic">
+                            photography
+                        </h2>
+                    </div>
+                </div>
+                <div id="card" className="bg-card-gradient hover:bg-card-hover-gradient p-1.5 rounded-[30px] shadow-xl transform hover:scale-105 transition-transform duration-300">
+                    <img src={TravelImg} alt='travelling' className="relative h-[350px] md:h-[500px] w-full rounded-[25px] object-cover" />
+                    <div className="absolute opacity-0 flex top-0 left-0 items-center justify-center w-full h-full hover:opacity-100 bg-[rgba(0,0,0,0.5)] transition-all duration-500">
+                        <h2 className="text-[1.75rem] md:text-[2.5rem] text-transparent bg-gradient-4 bg-clip-text font-serif font-bold italic">
+                            travelling
+                        </h2>
                     </div>
                 </div>
             </div>

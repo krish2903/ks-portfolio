@@ -1,75 +1,49 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import logoDark from "../assets/logoDark.png";
-import Resume from "../assets/krish-CV.pdf";
+import logoLight from "../assets/logoLight.png";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [darkBg, setDarkBg] = useState(true);
+
+  useEffect(() => {
+    const updateBg = () => {
+      if (window.scrollY > window.innerHeight) {
+        setDarkBg(false);
+      } else {
+        setDarkBg(true);
+      }
+    };
+
+    updateBg();
+    window.addEventListener("scroll", updateBg);
+    return () => window.removeEventListener("scroll", updateBg);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > lastScrollY && window.scrollY > 100) {
-        setIsScrolled(true);
-      } else if (window.scrollY < lastScrollY) {
+      const currentScrollY = window.scrollY;
+
+      // Show header when scrolling up or at the top
+      if (currentScrollY < lastScrollY || currentScrollY < 100) {
         setIsScrolled(false);
       }
-
-      if (window.scrollY < window.innerHeight / 10) {
-        document.getElementById("header").style.boxShadow = "none";
-      } else {
-        document.getElementById("header").style.boxShadow = "0 0 3px 0 #c0c0c0";
+      // Hide header when scrolling down and not at the top
+      else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsScrolled(true);
       }
 
-      // Update last scroll position
-      setLastScrollY(window.scrollY);
+      setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener("scroll", handleScroll);
-
-    // Cleanup the event listener
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  const handleToggle = () => setToggle(!toggle);
-
-  const handleScrollToAbout = () => {
-    const aboutSection = document.getElementById('about'); // Get the element with the id 'about'
-    if (aboutSection) {
-      aboutSection.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }
-  };
-
-  const handleScrollToProjects = () => {
-    const aboutSection = document.getElementById('projects'); // Get the element with the id 'about'
-    if (aboutSection) {
-      aboutSection.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }
-  };
-
-  const handleScrollToBlog = () => {
-    const aboutSection = document.getElementById('blog'); // Get the element with the id 'about'
-    if (aboutSection) {
-      aboutSection.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }
-  };
-
-  const handleScrollToContact = () => {
-    const aboutSection = document.getElementById('contact'); // Get the element with the id 'about'
-    if (aboutSection) {
-      aboutSection.scrollIntoView({
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
       });
@@ -78,41 +52,43 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed w-full h-[4.5rem] flex items-center justify-between px-12 bg-white text-lux-green z-10 duration-500 ${isScrolled ? '-translate-y-[100%]' : 'translate-y-0'
-        }`}
+      className={`
+        fixed w-full h-[5.5rem] 
+        flex items-center justify-center md:justify-between 
+        text-lux-cream px-12 
+        transition-transform duration-500 ease-in-out
+        ${isScrolled ? '-translate-y-full' : 'translate-y-0'}
+        ${!darkBg ? "backdrop-blur-lg bg-black/20" : "bg-transparent"}
+        z-10
+      `}
       id="header"
     >
-      <a href="/">
+      <a href="/ks-portfolio">
         <img
-          src={logoDark}
+          src={logoLight}
           alt="Logo"
-          className="h-6 w-auto md:ml-auto"
+          className="h-8 w-auto md:ml-auto"
         />
       </a>
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex items-center">
-          <li>
-            <a onClick={handleScrollToAbout}>about</a>
-          </li>
-          <li>
-            <a onClick={handleScrollToProjects}>projects</a>
-          </li>
-          <li>
-            <a onClick={handleScrollToBlog}>blog</a>
-          </li>
-          <li>
-            <a onClick={handleScrollToContact}>contact</a>
-          </li>
-          <li>
-            <a href={Resume} download>resume</a>
-          </li>
+          {['about', 'projects', 'blog', 'contact'].map((section) => (
+            <li key={section}>
+              <button
+                className="font-lato px-4 py-5 text-[1rem] text-decoration-none text-sp-white hover:text-white hover:border-b-[1.25pt] hover:border-b-white cursor-pointer"
+                onClick={() => scrollToSection(section)}
+              >
+                {section}
+              </button>
+            </li>
+          ))}
         </ul>
       </nav>
 
       {/* Mobile Nav */}
-      <nav
+      {/* <nav
         className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
       >
         <ul className="flex flex-col">
@@ -134,10 +110,9 @@ const Header = () => {
         </ul>
       </nav>
 
-      {/* Toggle button */}
       <button onClick={handleToggle} className="block md:hidden">
         {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
-      </button>
+      </button> */}
     </header>
   );
 };

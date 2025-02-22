@@ -16,8 +16,8 @@ const data = {
   labels: ['HTML', 'CSS', 'JavaScript', 'PHP', 'React JS', 'Django', 'Tailwind', 'SQL', 'Python', 'Java', 'MS Suite', 'Google Suite', 'Visual Paradigm', 'GitHub'],
   datasets: [{
     label: '',
-    data: [90, 80, 80, 80, 80, 50, 50, 80, 90, 90, 100, 100, 90, 90],
-    backgroundColor: '#dcd2c2',
+    data: [100, 90, 80, 80, 80, 50, 50, 80, 90, 80, 100, 100, 90, 90],
+    backgroundColor: '#ff00ff',
   }]
 };
 
@@ -41,28 +41,28 @@ const options = {
     },
     plugins: {
       legend: {
-        display: false, // This will hide the legend
+        display: false, 
       },
     },
   };  
 
-function SkillsChart() {
+function SkillsChart({ isInView }) {
   const [chartData, setChartData] = useState(data);
+  const inView = isInView;
 
   useEffect(() => {
-    // Simulate data fetching or updates here
     const intervalId = setInterval(() => {
       const newData = { ...chartData };
-      newData.datasets[0].data = newData.datasets[0].data.map(value => value + Math.random() * 5 - 2.5); // Add random fluctuation
+      newData.datasets[0].data = newData.datasets[0].data.map(value => value + Math.random() * 5 - 2.5);
       setChartData(newData);
-    }, 2000); // Update every 2 seconds
+    }, 2000);
 
     return () => clearInterval(intervalId);
   });
 
   return (
     <div className='w-full'>
-      <Bar data={chartData} options={options} />
+      {inView && <Bar data={chartData} options={options} />}
     </div>
   );
 }
