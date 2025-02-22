@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/ks-portfolio/static/css/main.d08b6e34.css",
-    "main.js": "/ks-portfolio/static/js/main.81ae90e0.js",
+    "main.css": "/ks-portfolio/static/css/main.361fc2b2.css",
+    "main.js": "/ks-portfolio/static/js/main.8e9d17ed.js",
     "static/js/488.e91f9069.chunk.js": "/ks-portfolio/static/js/488.e91f9069.chunk.js",
+    "static/media/travelling.jpeg": "/ks-portfolio/static/media/travelling.c9fcfdfa8ef0b30d6b28.jpeg",
+    "static/media/photography.jpeg": "/ks-portfolio/static/media/photography.e8b14e076427de787af7.jpeg",
     "static/media/orbis-project.jpeg": "/ks-portfolio/static/media/orbis-project.f9b4faf5fbcc5cc996d2.jpeg",
     "static/media/bubble.png": "/ks-portfolio/static/media/bubble.392d457ed6faee1c7a0d.png",
     "static/media/chefAI-project.jpeg": "/ks-portfolio/static/media/chefAI-project.5b223357296e8b892ec6.jpeg",
@@ -14,12 +16,12 @@
     "static/media/mesh-bg.png": "/ks-portfolio/static/media/mesh-bg.b9026855d446429f29a7.png",
     "static/media/triangle.png": "/ks-portfolio/static/media/triangle.1914de850cb2ce2a7074.png",
     "index.html": "/ks-portfolio/index.html",
-    "main.d08b6e34.css.map": "/ks-portfolio/static/css/main.d08b6e34.css.map",
-    "main.81ae90e0.js.map": "/ks-portfolio/static/js/main.81ae90e0.js.map",
+    "main.361fc2b2.css.map": "/ks-portfolio/static/css/main.361fc2b2.css.map",
+    "main.8e9d17ed.js.map": "/ks-portfolio/static/js/main.8e9d17ed.js.map",
     "488.e91f9069.chunk.js.map": "/ks-portfolio/static/js/488.e91f9069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d08b6e34.css",
-    "static/js/main.81ae90e0.js"
+    "static/css/main.361fc2b2.css",
+    "static/js/main.8e9d17ed.js"
   ]
 }
